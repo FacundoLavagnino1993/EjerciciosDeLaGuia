@@ -11,8 +11,15 @@ namespace EjercicioTrece
         static void Main(string[] args)
         {
             string binario;
+            //string bin = ("16");
+            
+            double numero;
             binario=Conversor.DecimalBinario(16);
+
+            numero=Conversor.BinarioDecimal("16");
+
             Console.WriteLine(binario);
+            Console.WriteLine(numero);
             Console.ReadLine();
         }
     }

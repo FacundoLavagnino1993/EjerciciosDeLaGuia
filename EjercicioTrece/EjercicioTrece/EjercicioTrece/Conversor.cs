@@ -11,9 +11,11 @@ namespace EjercicioTrece
         public static string DecimalBinario(double num)
         {
             string binario="";
+            string aux="";
              double modulo;
              int division;
              int flag = 0;
+
              do
              {
                  modulo = num % 2;
@@ -33,14 +35,27 @@ namespace EjercicioTrece
 
              } while (flag == 0);
 
-             return binario;
+
+             
+             for (int i = 0; i > binario.Length; i++)
+             {
+                 Console.WriteLine("char: "+binario[i]);
+             
+             }
+
+
+                 return binario;
+
 
         }
 
         public static double BinarioDecimal(string binario)
         {
-            double Decimal;
-            int x = binario.Length(binario) - 1;
+            double Decimal=0;
+            int x;
+
+            x = binario.Length -1;
+
             for (int i = 0; i < binario.Length; i++)
             {
                 if ((binario.Substring(i, 1)) == "1")
