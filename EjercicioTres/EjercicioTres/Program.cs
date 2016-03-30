@@ -12,6 +12,8 @@ namespace EjercicioTres
         {
             string dato;
             int num;
+            int modulo=0;
+            bool primo;
 
             Console.WriteLine("Ingrese un numero:");
             dato = Console.ReadLine();
@@ -21,9 +23,26 @@ namespace EjercicioTres
                 dato = Console.ReadLine();
             }
 
-            
+            for(int i = 3;i <= num; i++)
+            {
+                primo = true;   
+                for (int j = 2; j < i ; j++)
+                {
+                    modulo = i % j;
+                    if (modulo == 0)
+                    {
+                        primo = false;
+                    }
 
+                }
 
+               if(primo == true)
+
+                    Console.WriteLine(i + ", ");                
+               
+            }
+
+            Console.ReadLine();
 
 
         }
