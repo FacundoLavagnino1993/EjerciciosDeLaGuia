@@ -8,30 +8,29 @@ namespace EjercicioCuatro
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-            int acumulador = 0;
-            int limite=7;
-            int modulo;
 
-            for(int i=2; i<limite ; i ++ )
-            {
-                for(int j=1; j<i ; j++)
-                {
-                    modulo = i % j;
-                    if(modulo==0)
-                    {
-                        acumulador = acumulador + j;
-                    }
-                }
+           
 
-                if(acumulador == i)
-                {
-                    Console.WriteLine(i + ", ");
-                }
-            }
+            NumeroPerfecto Num = new NumeroPerfecto();
+            int resultado = 0;
+            Console.WriteLine("Los primeros 4 numeros perfectos son: ");
+            Num.NumeroEsPerfecto();
+            Console.WriteLine("Listo");
 
             Console.ReadLine();
+
+
+
+
+
+
+
+               
+                
+                
         }
     }
 }
