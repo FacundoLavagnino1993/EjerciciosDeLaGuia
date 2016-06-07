@@ -19,7 +19,7 @@ namespace Ejercicio_52
         {
             float precioFinal;
             precioFinal = this._duracion * this._costo;
-            return 0;
+            return precioFinal;
         }
 
         public Local()
@@ -37,7 +37,7 @@ namespace Ejercicio_52
 
         
 
-        public void Mostrar()
+        public void MostrarL()
         {
             base.Mostrar();
             StringBuilder texto = new StringBuilder("\nCosto de la llamada : "+this.CostoLlamada);

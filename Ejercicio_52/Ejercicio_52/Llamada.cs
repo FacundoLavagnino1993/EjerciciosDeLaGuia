@@ -38,7 +38,7 @@ namespace Ejercicio_52
 
         public void Mostrar()
         {
-            StringBuilder texto = new StringBuilder("Tel Origen : " + this.NroOrigen + "Tel Destino : " + this.NroDestino + "Duracion : " + this.Duracion);
+            StringBuilder texto = new StringBuilder("\nTel Origen : " + this.NroOrigen + "\nTel Destino : " + this.NroDestino + "\nDuracion : " + this.Duracion);
             Console.WriteLine(texto);
         }
 

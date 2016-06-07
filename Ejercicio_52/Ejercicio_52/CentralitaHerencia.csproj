@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Centralita.cs" />
-    <Compile Include="Franja.cs" />
     <Compile Include="Llamada.cs" />
     <Compile Include="Local.cs" />
     <Compile Include="Program.cs" />

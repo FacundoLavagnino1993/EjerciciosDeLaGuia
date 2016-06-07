@@ -100,11 +100,11 @@ namespace Ejercicio_52
             {
                 if (this._listaDeLlamadas[i] is Local)
                 {
-                    ((Local)this._listaDeLlamadas[i]).Mostrar();
+                    ((Local)this._listaDeLlamadas[i]).MostrarL();
                 }
                 else
                 {
-                    ((Provincial)this._listaDeLlamadas[i]).Mostrar();
+                    ((Provincial)this._listaDeLlamadas[i]).MostrarP();
                 }
             }
         }
