@@ -1,0 +1,3 @@
+Nombre :Julian	Apellido :Garcia
+Cuit :21-37822311-9	Edad :35
+Cuenta Bancaria :00012342445	Puntos :5340

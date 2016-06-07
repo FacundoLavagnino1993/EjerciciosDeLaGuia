@@ -1,0 +1,3 @@
+Nombre :Federico	Apellido :Lopez
+Cuit :22-34872231-7	Edad :29
+Cuenta Bancaria :0072881992388
